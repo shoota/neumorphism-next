@@ -1,6 +1,7 @@
 # neumorphism-next
 neumorphism ui with next.js
 
+use [ui-neumoriphism](https://akaspanion.github.io/ui-neumorphism/)
 
 create with next cli
 ```
