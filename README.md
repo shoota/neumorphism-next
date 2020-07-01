@@ -1,6 +1,14 @@
-# Example app with Storybook and TypeScript.
+# neumorphism-next
+neumorphism ui with next.js
 
-This example shows a default set up of Storybook plus TypeScript, using [@storybook/preset-typescript](https://github.com/storybookjs/presets/tree/master/packages/preset-typescript). Also included in the example is a custom component included in both Storybook and the Next.js application.
+
+create with next cli
+```
+npx create-next-app
+✔ What is your project named? … neumo-next
+✔ Pick a template › Example from the Next.js repo
+✔ Pick an example › with-storybook-typescript
+```
 
 ## How to use
 
@@ -23,14 +31,20 @@ curl https://codeload.github.com/vercel/next.js/tar.gz/canary | tar -xz --strip=
 cd with-storybook-typescript
 ```
 
-Install it and run:
+# Run dev server:
 
 ```bash
-npm install
 npm run dev
 # or
-yarn
 yarn dev
+```
+
+# Run Build:
+
+```bash
+npm run build
+# or
+yarn build
 ```
 
 ## Run Storybook
@@ -48,5 +62,3 @@ npm run build-storybook
 # or
 yarn build-storybook
 ```
-
-You can use [Vercel](https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) to deploy Storybook. Specify `storybook-static` as the output directory.
